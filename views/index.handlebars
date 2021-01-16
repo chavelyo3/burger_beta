@@ -1,0 +1,50 @@
+<body role="img" title="burger image" class="background-image background-position-center background-repeat no"
+    style="height:100%" style="height:100%">
+
+
+ <div class="container">
+
+ 
+<img src="../img/burgerApp.jpg" width="250" height="250">
+  
+  <form class="create-form">
+
+    <div class="form-group">
+      <label for="nb">Burger Type:</label>
+      <input type="text" id="nb" name="name">
+    <button type="submit">Add<i class="fas fa-hamburger"></i></div></button></form>
+
+
+
+<div class="row"> 
+
+    <div class="ndevoured col-md-6">
+      <h2>Ready to eat!</h2>
+
+      <ul>
+        {{#each burgers}}
+        {{#unless devoured}}
+        {{> burgers/burger-block devoured=true}}
+        {{/unless}}
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+
+<div class="devoured col-md-6">
+    
+      <h2>Eaten!</h2>
+
+      <ul>
+        {{#each burgers}}
+        {{#if devoured}}
+        {{> burgers/burger-block devoured=false}}
+        {{/if}}
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+</body>

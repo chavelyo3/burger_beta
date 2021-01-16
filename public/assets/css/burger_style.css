@@ -1,0 +1,64 @@
+html, body {
+    min-height: 100%;
+    background-image: url("/img/backgroundburger.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.delete-burger {
+    background-color: #A64488;
+    border: none;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.change-devoured, .change-eaten {
+    background-color: #60A165;
+    border: none;
+    color: black;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+.container{
+    text-align: center;
+}
+.container, .form-group, .create-form, .ndevoured, .devoured{
+    background-color:#F6C095; 
+}
+.ndevoured{
+    float: left;
+    
+}
+
+.devoured{
+    float:right;
+
+}
+
+li {
+	padding: 5px;
+	margin: 5px;
+  background: #F6C095;
+  border-radius: 15px;
+  list-style-type:none;
+  }
+
+  .create-update-form {
+    margin: 5px;
+    padding: 5px;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
