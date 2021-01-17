@@ -10,6 +10,7 @@ html, body {
 .content {
     max-width: 500px;
     margin: auto;
+}
 
 .delete-burger {
     background-color: #A64488;
