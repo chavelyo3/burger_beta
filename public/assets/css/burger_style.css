@@ -5,6 +5,8 @@ html, body {
     background-repeat: no-repeat;
     background-position: center center;
     font-family: 'Montserrat', sans-serif;
+    max-width: 500px;
+    margin: auto;
 }
 
 .content {
@@ -35,6 +37,8 @@ html, body {
     font-size: 12px;
     border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
+
+    
 }
 
 .container{
