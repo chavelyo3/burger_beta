@@ -4,6 +4,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .delete-burger {
@@ -18,7 +19,7 @@ html, body {
     border-radius: 8px;
 }
 
-.change-devoured, .change-eaten {
+.change-devoured, .change-eaten, .burger-eaten {
     background-color: #60A165;
     border: none;
     color: black;
@@ -28,13 +29,15 @@ html, body {
     display: inline-block;
     font-size: 12px;
     border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container{
     text-align: center;
 }
-.container, .form-group, .create-form, .ndevoured, .devoured{
+.container, .form-group, .create-form,.devoured{
     background-color:#F6C095; 
+    font-family: 'Montserrat', sans-serif;
 }
 .ndevoured{
     float: left;
