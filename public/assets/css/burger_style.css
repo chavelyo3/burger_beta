@@ -7,6 +7,10 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.content {
+    max-width: 500px;
+    margin: auto;
+
 .delete-burger {
     background-color: #A64488;
     border: none;
