@@ -1,7 +1,7 @@
 # Burger App!
 
 # Description 
-a simple app using handlebars, MYSQL, and depoyed by Heruko. This app allows users to add and change thier items. 
+A simple app using handlebars, MYSQL, and depoyed by Heruko. This app allows users to add and delete thier items. 
 
 # Screenshots 
 ![demo](https://github.com/chavelyo3/burger_beta/blob/main/public/img/Burger%20App!.gif?raw=true)<br>
