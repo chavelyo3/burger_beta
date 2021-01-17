@@ -4,7 +4,7 @@
 A simple app using handlebars, MYSQL, and depoyed by Heruko. This app allows users to add and delete thier items. 
 
 # Screenshots 
-![demo](https://github.com/chavelyo3/burger_beta/blob/main/public/img/Burger%20App!.gif?raw=true)<br>
+![demo](https://github.com/chavelyo3/burger_beta/blob/main/public/img/burgerapp.gif?raw=true)<br>
  Click [here](https://drive.google.com/file/d/1jpITSvAukVRm_Amhn7EJCCVG9w942nnr/view) to view video demo and on Heruko [here](https://secret-citadel-14425.herokuapp.com/).
 
 
