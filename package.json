@@ -1,7 +1,7 @@
 {
   "name": "burgers",
   "version": "1.0.0",
-  "description": "",
+  "description": "# Description  a simple app using handlebars, MYSQL, and depoyed by Heruko. This app allows users to add and change thier items.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,5 +24,6 @@
     "handlebars": "^4.7.6",
     "hbs": "^4.1.1",
     "mysql": "^2.18.1"
-  }
+  },
+  "devDependencies": {}
 }

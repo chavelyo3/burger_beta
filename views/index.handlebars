@@ -24,21 +24,21 @@
       <ul>
         {{#each burgers}}
         {{#unless devoured}}
-        {{> burgers/burger-block devoured=true}}
+        {{> burgers/burger-block devoured=false}}
         {{/unless}}
         {{/each}}
       </ul>
     </div>
   </div>
 
-<div class="devoured col-lg-12">
+<div class="ndevoured col-lg-12">
     
       <h2>Eaten!</h2>
 
       <ul>
         {{#each burgers}}
         {{#if devoured}}
-        {{> burgers/burger-block devoured=false}}
+        {{> burgers/burger-block devoured=true}}
         {{/if}}
         {{/each}}
       </ul>
